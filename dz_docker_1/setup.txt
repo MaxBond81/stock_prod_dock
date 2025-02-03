@@ -1,0 +1,16 @@
+
+запуск докера 
+1) Выполните сборку docker образа из текущего каталога /dz_1 командой: "docker build -t image_nginx . " 
+2) Будет создан docker образ с именем image_nginx. Проверить наличие можно командой docker images
+3) docker run -d -p 80:80 image_nginx - Создайте и запустите контейнер из образа
+4) curl localhost:80 - проверка
+<!DOCTTYPE html>
+<html>
+	<head>
+		<title> Hello example </title>
+	</head>
+	<body>
+		<p> Hello World! </p>
+	</body>
+
+
